@@ -1,3 +1,5 @@
-// run `node index.js` in the terminal
+const kebabCase = require('lodash').kebabCase
 
-console.log(`Hello Node.js v${process.versions.node}!`);
+const message = "Missión ACCOMPLISHĘD!"
+
+console.log(kebabCase(message));

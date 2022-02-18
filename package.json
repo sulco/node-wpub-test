@@ -4,5 +4,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "demo": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
